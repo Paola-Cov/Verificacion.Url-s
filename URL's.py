@@ -1838,8 +1838,6 @@ urls = ["http://www.ncbi.nlm.nih.gov",
 
 
 import urllib.request 
-urlSinTilde = "https://www.mazda.mx/vehiculos/cx-3/galeria"
-url404 = "https://www.google.es/error"
 
 for i in urls:
     def lecturaencabezado(url):
