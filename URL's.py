@@ -1853,6 +1853,12 @@ for i in urls:
             print(" ")
 
     try:
+        #urllib.parse proporciona funciones para manipular URLS y sus componentes, para descomponerlas o construirlas
+        #qoute reemplaza los caracteres especiales en una cadena usando el escape %
+        encodeUrl =urllib.parse.quote(i,safe='://')
+    
+        lecturaencabezado(i)
+        #Un HTMLERROR se genera cuando la direccion URL no existe
   
         lecturaencabezado(i)
         #Un HTMLERROR se genera cuando la direccion URL no existe
